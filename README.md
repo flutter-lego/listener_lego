@@ -17,4 +17,13 @@ lego add listener_lego
 ```
 
 ## Usage
-Usage here
+add listener any where. then that listener will be auto registered.
+```dart
+import 'package:flutter/material.dart';
+import '../../../../../../../../../../../main.dart';
+
+@ReadyForListener()
+Future<void> newListener(BuildContext context) async {
+  // add listener here
+}
+```
